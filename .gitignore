@@ -1,0 +1,27 @@
+# IntelliJ and other IDE metadata
+**/.idea/
+**/*.iml
+**/*.ipr
+**/*.iws
+.vscode/
+
+# Build outputs and downloaded dependencies
+**/target/
+**/build/
+**/.gradle/
+**/node_modules/
+**/dist/
+
+# Local databases and logs
+**/data/
+*.mv.db
+*.trace.db
+*.lock.db
+*.log
+
+# Local environment files and secrets
+.env
+.env.*
+!.env.example
+**/application-local.properties
+**/application-secret.properties
